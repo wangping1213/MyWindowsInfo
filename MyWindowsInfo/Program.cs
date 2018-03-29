@@ -8,7 +8,6 @@ namespace MyWindowsInfo
 {
     class Program
     {
-
            static void Main(string[] args)
         {
             string result = string.Empty;
@@ -32,6 +31,7 @@ namespace MyWindowsInfo
                 }
             }
             Console.WriteLine(result);
+            Console.Read();
         }
 
         private static string InvokeCmd(string cmdArgs)
